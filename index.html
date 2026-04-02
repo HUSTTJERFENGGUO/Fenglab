@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guo Lab</title>
+    <title>Feng Guo Research</title>
     <meta
       name="description"
-      content="Guo Lab is a future research program focused on pancreatic cancer metastasis, immune resistance, in vivo CRISPR screening, spatial omics, and engineered cell therapy."
+      content="Feng Guo Research focuses on pancreatic cancer immunotherapy resistance, liver metastasis, in vivo CRISPR screening, spatial omics, and engineered cell therapy."
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -14,9 +14,9 @@
     <div class="site-shell">
       <header class="topbar">
         <a class="brand" href="#top">
-          <span class="brand-mark">GL</span>
+          <span class="brand-mark">FG</span>
           <span class="brand-text">
-            <strong>Guo Lab</strong>
+            <strong>Feng Guo, M.D., Ph.D.</strong>
             <small>Metastasis. Immunity. Function.</small>
           </span>
         </a>
@@ -26,8 +26,11 @@
         </button>
         <nav class="nav">
           <a href="#about">About</a>
-          <a href="#research">Research</a>
-          <a href="#platforms">Platforms</a>
+          <a href="#questions">Questions</a>
+          <a href="#kras-met">KRAS Project</a>
+          <a href="#platforms">Toolbox</a>
+          <a href="#models">Models</a>
+          <a href="#grn">GRN</a>
           <a href="#highlights">Highlights</a>
           <a href="#join">Join</a>
           <a href="#contact">Contact</a>
@@ -38,28 +41,29 @@
         <section class="hero reveal">
           <div class="hero-copy">
             <p class="eyebrow">Future independent research program</p>
-            <h1>Decoding immune resistance in pancreatic cancer metastasis.</h1>
+            <h1>Why is pancreatic cancer still so hard to treat?</h1>
             <p class="hero-lead">
-              Guo Lab is a planned laboratory focused on how metastatic niches reshape
-              immunity, how tumors escape therapy, and how functional genomics can reveal
-              more precise treatments for pancreatic cancer.
+              Feng Guo Research focuses on three linked problems: why
+              immunotherapy often fails in pancreatic cancer, why liver metastases create
+              an even harder immune environment, and how functional screening plus spatial
+              omics can point us toward better therapies.
             </p>
             <div class="hero-actions">
-              <a class="button primary" href="#research">Explore Research</a>
+              <a class="button primary" href="#questions">Explore Research</a>
               <a class="button secondary" href="#contact">Get in Touch</a>
             </div>
             <div class="hero-metrics">
               <div>
-                <strong>In vivo</strong>
-                <span>CRISPR/Cas9 functional screens in immunocompetent models</span>
+                <strong>Why does immunotherapy fail?</strong>
+                <span>We study the genes, cells, and signals that let pancreatic tumors resist immune attack.</span>
               </div>
               <div>
-                <strong>Single-cell + spatial</strong>
-                <span>scRNA-seq, Visium HD, domain mapping, and deconvolution</span>
+                <strong>Why is liver metastasis harder?</strong>
+                <span>We compare primary tumors and liver metastases to understand organ-specific immune barriers.</span>
               </div>
               <div>
-                <strong>Translational design</strong>
-                <span>Targeted therapy, immunotherapy, and next-generation solid-tumor CAR-T</span>
+                <strong>How do we find better treatments?</strong>
+                <span>We combine animal models, in vivo CRISPR screens, and high-throughput profiling to guide therapy design.</span>
               </div>
             </div>
           </div>
@@ -68,42 +72,40 @@
             <div class="orb orb-a"></div>
             <div class="orb orb-b"></div>
             <div class="orb orb-c"></div>
-            <article class="visual-card visual-card-main">
-              <img src="./assets/spatial-overview.png" alt="Spatial cell-state overview across tissue sections" />
-              <div class="visual-image-wash"></div>
-              <div class="visual-caption">
-                <span>Spatial ecosystems</span>
-                <strong>Primary tumors and liver metastases are not the same disease environment.</strong>
-              </div>
-              <div class="visual-badges">
-                <span>In vivo CRISPR</span>
+            <div class="visual-frame">
+                <div class="visual-badges">
                 <span>Spatial transcriptomics</span>
-                <span>Metastatic niche mapping</span>
+                <span>Pattern discovery</span>
+                <span>Public-facing science</span>
               </div>
-            </article>
-            <div class="visual-note">
-              <p class="visual-note-label">Research Focus</p>
-              <p class="visual-note-text">
-                We study how immune resistance emerges across pancreatic primary tumors and liver metastases,
-                then connect those maps to functional and therapeutic testing.
-              </p>
+              <article class="visual-card visual-card-main">
+                <img src="./assets/hero-expression-panels.png" alt="Spatial gene expression panels across a pancreatic tumor section" />
+                <div class="visual-image-wash"></div>
+                <div class="visual-caption">
+                  <span>Question-driven biology</span>
+                  <strong>Different immune and stromal programs can occupy different territories inside the same tumor.</strong>
+                </div>
+              </article>
+              <article class="visual-card visual-card-secondary">
+                <img src="./assets/hero-pattern-panels.png" alt="Spatial pattern panels highlighting tissue programs" />
+              </article>
             </div>
           </div>
         </section>
 
         <section class="section intro-band reveal">
           <p>
-            We aim to build a laboratory where rigorous mouse models, high-resolution omics,
-            and mechanistic validation are used together, not separately. The long-term goal is
-            to understand why metastatic pancreatic cancer remains resistant, and how we can turn
-            that knowledge into smarter immunotherapy and cell-therapy strategies.
+            We aim to build a laboratory where precise mouse models, high-resolution sequencing,
+            spatial analysis, and mechanism-driven experiments are used together. The goal is not
+            only to describe pancreatic cancer, but to explain why treatment fails and how the next
+            generation of therapies can be made more effective.
           </p>
         </section>
 
         <section class="section about reveal" id="about">
           <div class="section-heading">
             <p class="eyebrow">About the PI</p>
-            <h2>Feng Guo, M.D.</h2>
+            <h2>Feng Guo, M.D., Ph.D.</h2>
           </div>
           <div class="about-grid">
             <article class="about-panel">
@@ -168,30 +170,30 @@
           </div>
         </section>
 
-        <section class="section research reveal" id="research">
+        <section class="section research reveal" id="questions">
           <div class="section-heading">
-            <p class="eyebrow">Research Directions</p>
-            <h2>Questions that connect mechanism to therapy</h2>
+            <p class="eyebrow">Big Questions</p>
+            <h2>The problems this lab wants to solve</h2>
           </div>
           <div class="research-grid">
             <article class="research-card">
-              <img src="./assets/crispr-workflow.png" alt="CRISPR workflow diagram" />
+              <img src="./assets/crispr-workflow.png" alt="In vivo CRISPR workflow diagram" />
               <div class="research-card-copy">
-                <h3>In vivo CRISPR/Cas9 screens for immune resistance</h3>
+                <h3>Why does immunotherapy often fail in pancreatic cancer?</h3>
                 <p>
-                  We want to know which genes help pancreatic tumors survive immunotherapy inside
-                  a living organism, where cancer cells, immune cells, and stroma constantly
-                  influence one another.
+                  Pancreatic tumors often grow inside a dense, immunosuppressive environment. We
+                  want to know which genes and signaling pathways help those tumors stay invisible
+                  or resistant even when the immune system is present.
                 </p>
                 <p>
-                  Instead of testing one gene at a time, we use pooled CRISPR screening in vivo to
-                  discover resistance genes at scale, then move the strongest hits into mechanism
-                  studies and combination-therapy design.
+                  One major strategy is to use in vivo CRISPR screening to identify resistance
+                  genes directly inside mouse tumors, where immune cells, fibroblasts, and tumor
+                  cells are interacting in real time.
                 </p>
                 <div class="tag-row">
-                  <span>Orthotopic models</span>
-                  <span>Anti-PD-1 response</span>
-                  <span>Functional validation</span>
+                  <span>Immune resistance</span>
+                  <span>CRISPR screening</span>
+                  <span>Mechanism discovery</span>
                 </div>
               </div>
             </article>
@@ -199,113 +201,283 @@
             <article class="research-card">
               <img src="./assets/spatial-domains.png" alt="Spatial domains mapped across a tumor section" />
               <div class="research-card-copy">
-                <h3>Single-cell and spatial comparison of primary tumors versus liver metastases</h3>
+                <h3>Why are liver metastases often even harder to control?</h3>
                 <p>
-                  Primary pancreatic tumors and liver metastases may carry the same driver
-                  mutations, but they do not live in the same immune ecosystem. We study how
-                  macrophages, fibroblasts, hepatocytes, and T cells are reorganized across those
-                  sites.
+                  A liver metastasis is not just the same tumor in a new place. The liver is a
+                  special immune organ, and metastatic cancer cells may exploit that environment to
+                  build stronger immune tolerance.
                 </p>
                 <p>
-                  By combining single-cell sequencing with Visium HD and spatial domain analysis,
-                  we aim to identify what makes liver metastases especially difficult to control.
+                  We compare primary tumors and liver metastases at single-cell and spatial levels
+                  to understand how macrophages, fibroblasts, hepatocytes, and T cells are
+                  reorganized across organs.
                 </p>
                 <div class="tag-row">
-                  <span>scRNA-seq</span>
-                  <span>Visium HD</span>
-                  <span>Niche mapping</span>
+                  <span>Liver metastasis</span>
+                  <span>Organ-specific immunity</span>
+                  <span>Spatial ecology</span>
                 </div>
               </div>
             </article>
 
             <article class="research-card">
-              <img src="./assets/cart-ecosystem.png" alt="Solid tumor CAR-T strategy illustration" />
+              <img src="./assets/fasn-mechanism.png" alt="FASN mechanism illustration linked to microenvironment remodeling" />
               <div class="research-card-copy">
-                <h3>CAR-T strategies that also reshape the tumor microenvironment</h3>
+                <h3>How can metabolism and chromatin shape immune response?</h3>
                 <p>
-                  Solid tumors resist CAR-T therapy not only because cancer cells are hard to kill,
-                  but also because the surrounding microenvironment suppresses T-cell function.
+                  Tumor response is not controlled by surface markers alone. Metabolism and
+                  epigenetic state can change cytokine output, chromatin accessibility, and how
+                  visible tumor cells become to the immune system.
                 </p>
                 <p>
-                  We are interested in dual-target or microenvironment-aware CAR-T approaches that
-                  attack the tumor while simultaneously weakening the local immunosuppressive niche.
+                  We are interested in therapy-induced rewiring, such as FASN-linked immune and
+                  epigenetic changes, because those may create new opportunities for combination
+                  therapy.
                 </p>
                 <div class="tag-row">
-                  <span>Solid tumor CAR-T</span>
-                  <span>TAM targeting</span>
-                  <span>Immune remodeling</span>
+                  <span>FASN</span>
+                  <span>Epigenetics</span>
+                  <span>Combination therapy</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="research-card">
+              <img src="./assets/grn-model.png" alt="GRN loss model illustrating stromal and immune remodeling" />
+              <div class="research-card-copy">
+                <h3>How do tumor cells and the microenvironment reshape each other?</h3>
+                <p>
+                  One example is the GRN project. GRN is a secreted factor linked to fibrosis,
+                  immune suppression, and stromal support. When this axis is changed, the whole
+                  ecosystem can shift.
+                </p>
+                <p>
+                  Instead of asking whether GRN is simply good or bad, we ask what happens to
+                  fibroblasts, antigen presentation, T-cell states, and response to combination
+                  therapy when the GRN-dependent support network is loosened.
+                </p>
+                <div class="tag-row">
+                  <span>GRN</span>
+                  <span>Stroma-immune crosstalk</span>
+                  <span>Combination design</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="research-card">
+              <img src="./assets/visium-liver-mets-overview.png" alt="Visium HD overview across multiple pancreatic cancer liver metastasis lesions" />
+              <div class="research-card-copy">
+                <h3>Why might liver metastases respond more weakly to KRAS inhibitors than primary tumors?</h3>
+                <p>
+                  One important emerging question in our work is why the same KRAS-targeted therapy
+                  may perform differently depending on where the tumor is growing. We have already
+                  observed that liver metastases can show weaker responses than primary pancreatic tumors.
+                </p>
+                <p>
+                  A key follow-up direction is to use Visium HD and other spatial approaches to ask
+                  whether liver metastases preserve a more suppressive immune niche, stronger stromal
+                  protection, or a different balance of antigen presentation and T-cell access after KRAS inhibition.
+                </p>
+                <div class="tag-row">
+                  <span>KRAS inhibitor response</span>
+                  <span>Primary vs liver metastasis</span>
+                  <span>Visium HD follow-up</span>
                 </div>
               </div>
             </article>
           </div>
         </section>
 
+        <section class="section project-focus reveal" id="kras-met">
+          <div class="section-heading">
+            <p class="eyebrow">Project Focus</p>
+            <h2>Primary tumor versus liver metastasis under KRAS inhibition</h2>
+          </div>
+          <div class="focus-grid">
+            <article class="focus-copy">
+              <p class="focus-kicker">Observed question</p>
+              <h3>Why might liver metastases respond more weakly than primary pancreatic tumors?</h3>
+              <p>
+                A major direction in this research program is to understand why the same KRAS
+                inhibitor may not perform equally well across anatomical sites. We have already
+                observed that liver metastases can be less responsive than primary pancreatic tumors.
+              </p>
+              <p>
+                This matters because a patient does not only have a mutation. A patient also has an
+                organ context. The liver may provide stronger stromal protection, different myeloid
+                support, and a more difficult environment for T-cell entry and antigen presentation.
+              </p>
+              <p>
+                Our next step is to use Visium HD and related spatial approaches to compare primary
+                lesions and liver metastases after KRAS inhibition, asking where immune suppression
+                persists, where stromal barriers remain active, and which niches may explain weaker
+                drug response.
+              </p>
+              <div class="tag-row">
+                <span>Observed weaker response</span>
+                <span>Primary vs liver metastasis</span>
+                <span>Spatial follow-up</span>
+              </div>
+            </article>
+
+            <div class="focus-visuals">
+              <figure class="gallery-card focus-card">
+                <img src="./assets/visium-liver-mets-overview.png" alt="Visium HD overview across multiple pancreatic cancer liver metastasis lesions" />
+                <figcaption>Multiple metastatic lesions can be profiled in parallel to compare how immune and stromal states vary across liver sites.</figcaption>
+              </figure>
+              <div class="focus-subgrid">
+                <figure class="gallery-card focus-card">
+                  <img src="./assets/visium-deconv-overview.png" alt="Spatial clustering and deconvolution overview" />
+                  <figcaption>Spatial clustering and deconvolution help reveal whether the local ecosystem stays tumor-dominant or becomes immune-permissive.</figcaption>
+                </figure>
+                <figure class="gallery-card focus-card">
+                  <img src="./assets/visium-weight-maps.png" alt="Weight maps showing tumor and macrophage distribution" />
+                  <figcaption>Weight maps can identify where tumor cells, macrophages, and stromal programs remain enriched after treatment.</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section class="section platforms reveal" id="platforms">
           <div class="section-heading">
-            <p class="eyebrow">Platforms</p>
-            <h2>Technologies we plan to integrate</h2>
+            <p class="eyebrow">Toolbox</p>
+            <h2>Animal models and high-throughput technologies</h2>
           </div>
           <div class="platform-grid">
             <article class="platform-card">
-              <h3>In vivo functional genomics</h3>
+              <h3>Animal techniques</h3>
               <p>
-                CRISPR/Cas9 perturbation directly inside mouse tumor models to identify genes that
-                shape therapy response under physiological immune pressure.
+                Orthotopic pancreatic models, portal-vein liver metastasis models, ultrasound
+                monitoring, and endpoint pathology allow us to study treatment response in a more
+                realistic disease setting.
               </p>
             </article>
             <article class="platform-card">
-              <h3>Single-cell transcriptomics</h3>
+              <h3>In vivo CRISPR screening</h3>
               <p>
-                Cell-state resolution for tumor, immune, and stromal populations, with special
-                focus on lineage plasticity and treatment-induced remodeling.
+                Rather than guessing one target at a time, we can perturb many genes at once and
+                identify which ones truly help tumors resist immune pressure in vivo.
               </p>
             </article>
             <article class="platform-card">
-              <h3>Spatial transcriptomics</h3>
+              <h3>Single-cell and spatial transcriptomics</h3>
               <p>
-                Visium HD and downstream domain analysis to determine where immune activation or
-                suppression occurs within intact tissue architecture.
+                We use scRNA-seq and Visium HD to ask not only which cells are present, but where
+                they are located and how they organize into immune or stromal niches.
               </p>
             </article>
             <article class="platform-card">
               <h3>ATAC-seq and CUT&amp;Tag</h3>
               <p>
-                Epigenomic mapping to understand how therapy rewires chromatin accessibility and
-                transcriptional control in resistant tumor states.
+                Chromatin-level assays help us understand why certain cell states appear under
+                therapy and how epigenetic accessibility shapes resistance programs.
               </p>
             </article>
             <article class="platform-card">
-              <h3>Mouse metastasis models</h3>
+              <h3>Deconvolution and spatial interpretation</h3>
               <p>
-                Orthotopic, portal vein, liver metastasis, and other disease-relevant models that
-                capture the biology of metastatic spread and niche adaptation.
+                When tissue dissociation is imperfect, deconvolution and domain-aware analysis help
+                us recover cell-type structure from intact tissue sections.
               </p>
             </article>
             <article class="platform-card">
               <h3>Therapeutic engineering</h3>
               <p>
-                Rational design of combination therapy and next-generation cell therapy informed by
-                tumor ecology rather than tumor cells alone.
+                The end goal is therapeutic design: smarter targeted therapy, immunotherapy, and
+                solid-tumor cell therapy guided by real tumor ecology.
               </p>
             </article>
           </div>
 
           <div class="gallery-grid">
             <figure class="gallery-card">
+              <img src="./assets/crispr-principle.png" alt="CRISPR screening principle diagram" />
+              <figcaption>Screening logic: which perturbations help tumor cells survive, and which make them vulnerable?</figcaption>
+            </figure>
+            <figure class="gallery-card">
+              <img src="./assets/visium-workflow.png" alt="Visium HD workflow diagram" />
+              <figcaption>Visium HD lets us connect tissue structure with spatial barcodes and gene programs.</figcaption>
+            </figure>
+            <figure class="gallery-card">
+              <img src="./assets/cuttag-atac.png" alt="CUT&Tag and ATAC-seq signal tracks" />
+              <figcaption>Epigenomic assays help explain why resistant or immune-silent states appear under therapy.</figcaption>
+            </figure>
+            <figure class="gallery-card">
               <img src="./assets/visium-hd.png" alt="Visium HD grid diagram" />
-              <figcaption>Visium HD gives us a way to think beyond isolated cells and ask where biological programs live inside tissue.</figcaption>
+              <figcaption>High-resolution spatial readout gives us a framework for thinking in terms of niches, not just isolated cells.</figcaption>
             </figure>
             <figure class="gallery-card">
-              <img src="./assets/spatial-annotation.png" alt="Spatial region annotation over histology" />
-              <figcaption>Spatial annotation connects morphology with niches such as tumor-rich cores, immune borders, and stromal interfaces.</figcaption>
+              <img src="./assets/visium-hd-compare.png" alt="Visium HD deconvolution compared with histology" />
+              <figcaption>Spatial deconvolution can be used to compare tumor-rich, stromal, and immune regions between primary and metastatic lesions.</figcaption>
             </figure>
-            <figure class="gallery-card">
-              <img src="./assets/deconvolution.png" alt="Deconvolution weight maps for tumor cells and macrophages" />
-              <figcaption>Deconvolution and domain-aware interpretation help recover cell-type structure when tissue dissociation is biased.</figcaption>
+          </div>
+        </section>
+
+        <section class="section model-systems reveal" id="models">
+          <div class="section-heading">
+            <p class="eyebrow">Model Systems</p>
+            <h2>Building and monitoring clinically relevant disease models</h2>
+          </div>
+          <div class="model-grid">
+            <figure class="gallery-card model-card model-card-wide">
+              <img src="./assets/model-surgery.png" alt="Portal vein liver metastasis surgery workflow in mouse model" />
+              <figcaption>
+                Portal vein injection workflow used to establish liver metastasis models with direct surgical control and reproducible delivery.
+              </figcaption>
             </figure>
-            <figure class="gallery-card">
-              <img src="./assets/mechanism-map.png" alt="Mechanistic research illustration" />
-              <figcaption>Mechanistic models guide us from omics signatures to causal intervention points.</figcaption>
+            <figure class="gallery-card model-card">
+              <img src="./assets/model-liver-ultrasound.png" alt="Ultrasound monitoring and gross anatomy of liver metastasis" />
+              <figcaption>
+                Ultrasound-based monitoring and gross validation of liver metastatic burden.
+              </figcaption>
+            </figure>
+            <figure class="gallery-card model-card">
+              <img src="./assets/model-primary-ultrasound.png" alt="Ultrasound monitoring and gross anatomy of orthotopic pancreatic tumors" />
+              <figcaption>
+                Orthotopic pancreatic tumor monitoring links in vivo imaging to endpoint pathology.
+              </figcaption>
+            </figure>
+            <figure class="gallery-card model-card model-card-wide">
+              <img src="./assets/model-timecourse.png" alt="Liver metastasis gross images across different stages" />
+              <figcaption>
+                Time-dependent liver metastasis phenotypes support studies of colonization, outgrowth, and therapeutic response.
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="section grn-section reveal" id="grn">
+          <div class="section-heading">
+            <p class="eyebrow">GRN Project</p>
+            <h2>A case study in tumor-microenvironment interaction</h2>
+          </div>
+          <div class="grn-grid">
+            <article class="about-panel">
+              <p>
+                GRN, also known as progranulin, is a secreted factor linked to immune regulation,
+                fibrosis, and tissue repair. In tumors, that same biology may help build a
+                protective ecosystem around cancer cells.
+              </p>
+              <p>
+                Our GRN-oriented work asks a public-facing but mechanistically deep question:
+                if we loosen this stromal-immune support axis, why does tumor growth slow down,
+                yet not completely disappear? Early evidence suggests that GRN loss can reduce
+                fibrosis and reshape antigen presentation, but may not fully restore strong CD8
+                cytotoxic function on its own.
+              </p>
+              <p>
+                That makes GRN a useful example of how a single secreted factor can change
+                fibroblasts, macrophages, B-cell and CD4 programs, and the physical structure of
+                the tumor at the same time.
+              </p>
+            </article>
+            <figure class="gallery-card grn-figure">
+              <img src="./assets/grn-model.png" alt="GRN loss model showing stromal loosening and combination therapy logic" />
+              <figcaption>
+                Concept model: GRN loss may loosen stromal barriers and alter immune organization,
+                while combination strategies may be needed to recover stronger cytotoxic killing.
+              </figcaption>
             </figure>
           </div>
         </section>
@@ -368,9 +540,9 @@
             <article class="join-card">
               <h3>What we value</h3>
               <p>
-                We want a lab culture that is technically serious, intellectually generous, and
-                fearless about difficult biological questions. Good science should be rigorous,
-                collaborative, and deeply mechanistic.
+                The goal is to build a research environment that is technically serious,
+                intellectually generous, and fearless about difficult biological questions.
+                Good science should be rigorous, collaborative, and deeply mechanistic.
               </p>
             </article>
             <article class="join-card">
@@ -390,7 +562,7 @@
           </div>
           <div class="contact-card">
             <p>
-              This website is a concept page for a future independent laboratory. For academic
+              This website is a concept page for a future research program. For academic
               contact, collaboration, or early discussions, please reach out by email.
             </p>
             <div class="contact-list">
@@ -403,7 +575,7 @@
       </main>
 
       <footer class="footer">
-        <p>Guo Lab</p>
+        <p>Feng Guo Research</p>
         <p><span id="year"></span> Vision site for a future pancreatic cancer research program.</p>
       </footer>
     </div>
